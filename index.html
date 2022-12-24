@@ -10,6 +10,15 @@
     <link rel="icon" type="jpg" href="head_img.jpg">
     <title>yxyh357</title>
     <style type="text/css">
+    ::-webkit-scrollbar 
+    {
+        width:0;
+    }
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
         body
         {
             background-color: rgb(34, 34, 34);
@@ -19,7 +28,7 @@
             color: #fff;
             font-family:'Times New Roman', 楷体, serif;
             text-align: center;
-            font-size:5vh;           
+            font-size:4vw;        
         }
         .头像
         {
@@ -32,21 +41,59 @@
         .目录
         {
             font-family:'Times New Roman', 楷体 ;
-            color: #fff;
-            font-size: 2vh;
-            width: 15%;
+            color: rgb(255, 255, 255);
+            font-size: 1.25vw;
+            width: 13vw;
+            max-height: 45vh;
+            float: left;
+            background-color:  rgb(34, 34, 34) ;
+            overflow-y: auto;
+            border-bottom: 1px solid gray;
+        }
+        .目录 dt
+        {
+            font-size: 2vw;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 2px solid gray;
+            
+        }
+        .目录 dd
+        {
+            overflow:hidden; 
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            border-radius: 5%;
         }
         p
         {
             color: #fff;
             font-family:'Times New Roman', 楷体, serif;
             text-align: center;
-            font-size: 5vh;
+            font-size: 3.5vw;
         }
+        a
+        {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            background-color: rgb(58, 58, 58);
+        }
+
     </style>
 </head>
 <body>
     <!--<audio src="simon.flac" autoplay controls loop> </audio>-->
+    <div class="目录">
+        <dl>
+            <dt>目录</dt>
+            <dd><a href="2022.1.17-19刷题记录.html" target="_blank" title="2022.1.17-19刷题记录">2022.1.17-19刷题记录</a></dd>
+            <dd><a href="2022.1.20-26刷题记录.html" target="_blank" title="2022.1.20-26刷题记录">2022.1.20-26刷题记录</a></dd>
+            <dd><a href="hgame刷题记录.html" target="_blank" title="hgame刷题记录">hgame刷题记录</a></dd>
+        </dl>
+    </div>
     <div style="margin: 0 auto;width: 20%;">
         <h1>你好</h1>
     </div>
@@ -55,10 +102,10 @@
         <h1>我是yxyh357<br/>
         一名来自邮专的带学生</h1>
     </div>
-    <div>
+    <div style="margin: 0 auto;width: 70%;">
         <p>我会将一些有的没的东西放在这个网站上</p>
-        <p>如果有些东西能帮助到你，我会感到很开心</p>
-        <p>非常感谢你的浏览</p>
+        <p>如果有些东西能帮助到你,这令人喜悦</p>
+        <p>感谢你的浏览</p>
     </div>
 </body>
 </html>
